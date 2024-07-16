@@ -1,0 +1,41 @@
+header{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+section{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+footer{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+}
+#main-title{
+    text-decoration: underline;
+    font-weight: bold; 
+}
+.intro-paragraph{
+    font-style: italic;
+    line-height: 1.5px;
+}
+.content-paragraph{
+    text-transform: uppercase;
+}
+p::first-letter{
+    font-weight: bold;
+}
+a:link{
+    color: forestgreen;
+    text-decoration: none;
+}
+.color-box{
+    text-shadow: 2px, 2px;
+    color: rgba(0, 0, 0, 0.3);
+}
